@@ -1,0 +1,55 @@
+cite {
+    color:blue;
+}
+code {
+    background-color: grey;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: red;
+}
+body {
+    background-color: orange;
+    text-align: center;
+}
+em {
+    border-style: dashed;
+}
+
+del:hover {
+    background-color: green;
+    color: purple;
+}
+
+.Awful {
+    background-color: green;
+    color: purple;
+
+}
+.beautiful {
+    background-image: linear-gradient(red, yellow);
+    padding: 50px;
+    transition: padding 1s;
+   }
+.beautiful:hover {
+    background-image: linear-gradient(yellow, red);
+    padding: 75px;
+}
+.parent {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(yellow, red);
+}
+.child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;    
+}
+.child:hover {
+    opacity: 0;
+}
